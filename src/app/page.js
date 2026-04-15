@@ -17,7 +17,7 @@ export default function Home() {
     const newChat1 = [0,text]
     setChat(prev => [...prev, newChat1])
     console.log(chat)
-    return
+    
     try {
       const res = await fetch("./api", {
         method:"POST",
